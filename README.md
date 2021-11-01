@@ -11,6 +11,7 @@
 * ``` head -n 1 esimerkki.txt ``` Show the first line of the file 
 * ``` tail -n 2 esimerkki.txt ``` Show the last two lines of the file
 * ``` grep "salai" päiväkirja.txt ``` grep (search globally for a regular expression and print)
+* ``` -n ``` or ```--line-number``` option tells ```grep``` to show the line number of the lines containing a string that matches a pattern.
 * ``` ^ ``` 正则表达式， 开头的字符 例如 ```grep -i "^word" new.txt ``` 以word字符串开头的行，大小写不限
 * ``` $ ``` 正则表达式， 结尾的字符 例如 ```grep -i "word$" new.txt ``` 以word字符串结尾的行，大小写不限
 * ``` ls | grep muisto ``` 如果没有pipe ``` | ```, 需要先将ls输出导入到文件再对文件使用grep
@@ -29,4 +30,4 @@
 * ``` wget sivun.osoite ```
 
 ## wc(word count)
-* ``` wc ``` is used to find the number of lines, characters, words, and bytes od a file.
+* ``` wc tiedosto``` is used to find the number of lines, characters, words, and bytes od a file.
