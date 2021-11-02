@@ -31,3 +31,4 @@
 
 ## wc(word count)
 * ``` wc tiedosto``` is used to find the number of lines, characters, words, and bytes od a file.
+
