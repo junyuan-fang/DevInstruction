@@ -32,3 +32,15 @@
 ## wc(word count)
 * ``` wc tiedosto``` is used to find the number of lines, characters, words, and bytes od a file.
 
+## Oikeudet
+* Oikeudet ja omistajuudet selviävät ```ls```-komennon ```-l```-vivun avulla.
+
+## chmod(change mode)
+![](https://tkt-lapio.github.io/assets/permission-selitys.png)
+* r = lukuoikeus
+* w = kirjoitusoikeus
+* x = ajo-oikeus
+* u = tiedoston omistaja
+* g = ryhmään kuuluvat
+* o = kaikki muut käyttäjät
+
