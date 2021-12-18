@@ -44,3 +44,26 @@
 * g = ryhmään kuuluvat
 * o = kaikki muut käyttäjät
 
+* Väliviiva ```-``` argumentti poistaa oikeuden, ja plussa ```+``` antaa oikeuksia.
+
+* ```chmod u+x esimerkki.txt``` antaa tiedoston omistajalle oikeuden ajaa tiedosto.
+
+* ```chmod o-w esimerkki.txt``` poistaa muilta käyttäjiltä oikeuden kirjoittaa tiedostoon.
+
+* ```chmod go+r esimerkki.txt``` antaa ryhmälle ja muille käyttäjille oikeuden lukea tiedoston.
+
+# skirptit
+* Alkuun tulee ```#!/bin/bash```. Skriptitiedostojen nimet myös yleensä lopetetaan päätteellä ```.sh```.
+* ```echo "Hello World!"```. 回声
+* ```TEST="Unix Programming"``` ```echo $TEST``` environment variables are set without using the $ sign but while accessing them we use the $ sign as prefix
+
+
+* watch: toista komentoa tietyin väliajoin
+* && tai ;: ketjuta komentoja peräjälkeen
+* alias: määrittele komennoille aliaksia, joiden avulla voit kutsua niitä esimerkiksi nopeammin.
+* &: kirjoittamalla merkin komennon loppuun sen aloittama prosessi jää taustalle, eikä lukitse komentoriviä
+* history: tarkastele komentohistoriaa
+* Ctrl + r: etsi komentoja omasta historiasta hakusanoilla
+
+
+
