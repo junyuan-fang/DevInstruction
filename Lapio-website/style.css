@@ -1,3 +1,27 @@
-p {
+/* p {
     background-color: red;
+} */
+
+.kesa {
+    color: yellow;
+  }
+
+.talvi {
+    color: blue;
+}
+
+h1{
+    color:blue;
+}
+
+ul {
+    color:pink;
+}
+
+.brown {
+    color: brown;
+}
+
+#red{
+    color:red;
 }
