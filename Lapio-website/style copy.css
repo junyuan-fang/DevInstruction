@@ -1,0 +1,47 @@
+/* p {
+    background-color: red;
+} */
+
+.kesa {
+    color: yellow;
+  }
+
+.talvi {
+    color: blue;
+}
+
+h1{
+    color:blue;
+}
+
+ul {
+    color:pink;
+}
+
+.brown {
+    color: brown;
+}
+
+#red{
+    color:red;
+}
+
+  .first-box-container {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+  }
+  
+  .second-box-container {
+    width: 200px;
+    height: 100px;
+    left: 250px;
+    background-color: yellow;
+    position: absolute;
+  }
+  
+  .third-box-container {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+  }
