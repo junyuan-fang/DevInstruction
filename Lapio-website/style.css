@@ -25,15 +25,23 @@ ul {
 #red{
     color:red;
 }
-
+p{
+  color:blue
+}
 
 .first-box-container {
+    text-transform: uppercase;
+    text-align: center;
     width: 200px;
     height: 100px;
     position: absolute;
-    top: 0;
+    top: 0px;
     padding: 0 auto auto 0;
     background-color: red;
+
+    border-style: solid;
+    border-color: green;
+    border-width:10px;
   }
   
   .second-box-container {
@@ -41,9 +49,14 @@ ul {
     height: 100px;
     position: absolute;
     padding: 0 auto auto 0;
-    top: 0px;
+    top: -10px;
     left: 250px;
+
     background-color: yellow;
+    border-style: solid;
+    border-width:10px;
+    border-color: red;
+    
   }
   
   .third-box-container {
@@ -51,9 +64,13 @@ ul {
     height: 100px;
     position: absolute;
     padding: 0 auto auto 0;
-    top: 0px;
+     top: -10px; /*bacause following the parent container 1 from the border */
     left: 250px;
+
     background-color: green;
+    border-style: solid;
+    border-color: yellow;
+    border-width:10px;
   }
 
   /* .first-box-container {

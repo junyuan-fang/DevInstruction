@@ -26,7 +26,37 @@ ul {
     color:red;
 }
 
-  .first-box-container {
+
+.first-box-container {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    padding: 0 auto auto 0;
+    background-color: red;
+  }
+  
+  .second-box-container {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    padding: 0 auto auto 0;
+    top: 0px;
+    left: 250px;
+    background-color: yellow;
+  }
+  
+  .third-box-container {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    padding: 0 auto auto 0;
+    top: 0px;
+    left: 250px;
+    background-color: green;
+  }
+
+  /* .first-box-container {
     width: 200px;
     height: 100px;
     background-color: red;
@@ -35,13 +65,11 @@ ul {
   .second-box-container {
     width: 200px;
     height: 100px;
-    left: 250px;
     background-color: yellow;
-    position: absolute;
   }
   
   .third-box-container {
     width: 200px;
     height: 100px;
     background-color: green;
-  }
+  } */
